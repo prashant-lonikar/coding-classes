@@ -5,7 +5,7 @@
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 8px 200px;
+    padding: 8px 200px 100px 200px;
 }
 
 .header {
@@ -45,7 +45,7 @@ li {
     gap: 15px;
 }
 
-p {
+.card-1-lhs p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -56,4 +56,43 @@ button {
     padding: 8px 12px;
     border-radius: 8px;
     border: none;
+}
+
+.hero .card-1-content img {
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 200px 100px 200px;
+}
+
+.information-panel {
+    display: flex;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.information-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-image p {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.information-image img {
+    width: 250px;
+    flex: none;
 }
