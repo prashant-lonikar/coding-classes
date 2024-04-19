@@ -50,7 +50,7 @@ li {
     color: #E5E7EB;
 }
 
-button {
+.sign-up-1 {
     background-color: #3882F6;
     color: white;
     padding: 8px 12px;
@@ -116,4 +116,34 @@ button {
     text-align: right;
     font-weight: bold;
     font-size: 25px;
+}
+
+.call-to-action {
+    display: flex;
+    margin: 100px 200px;
+    padding: 20px 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.c2a-right {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.c2a-1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
 }
