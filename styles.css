@@ -147,3 +147,13 @@ li {
     border: 2px solid #F9FAF8;
     flex-shrink: 0;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 8px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
